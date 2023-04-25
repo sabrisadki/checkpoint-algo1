@@ -1,0 +1,53 @@
+ALGORITHM types
+VAR
+i: INTEGER : 26;
+f: FLOAT : 4.56;
+c: CHAR: := 'c';
+s : STRING : 'str';
+b : BOOLEAN : TRUE;
+BEGIN
+// this is a single line comment
+/* this is
+a multi line comment*/
+f:=1; //correct
+i:= f; // wrong
+// we cannot mix types
+f = C; // wrong
+s:= C; // correct
+b = i; // wrong
+
+print the openenig hour for a ZOO
+
+      according to season */
+
+      // 1 it is winter / 2 it is spring / 3 it is summer / 4 it is autuan
+
+
+SWITCH (x) DO
+
+case 1 : write("10hee to 16hee"); BREAK;
+
+case 2 : A Write("18hee to 18hee"); BREAK;
+
+case 3 write("10h00 to 20hoe"); BREAK
+
+case 4 Write("18hee to 16h00"); BREAK:
+
+default : Write("wrong number");
+
+END_SWITCH
+
+
+      // 2sd version
+
+SWITCH (x) DO
+
+case 1
+
+case 4 write("10h00 to 16h00"); BREAK:
+
+case 2 Write("10hee to 18hee"); BREAK
+
+case 3 Write("10hee
+
+END

@@ -1,0 +1,22 @@
+ALGORITHM Counter
+VAR
+    SENT : STRING;
+    COUNT1,COUNT2, COUNT3 : INTEGER;
+BEGIN
+
+    write("Please your sentence finished with point");
+    
+    read (SENT);
+
+    for character in sentence:
+    COUNT1 = COUNT1 + 1
+    if character == " ":
+        COUNT2 = COUNT2 + 1
+    if character in ["a", "e", "i", "o", "u"]:
+        COUNT3 = COUNT3 + 1
+
+    write ("The length of the sentence"; COUNT1);
+    write ("The number of words in the sentence" ; COUNT2 + 1);
+    write ("The number of vowels in the sentence."; COUNT3); 
+
+END
