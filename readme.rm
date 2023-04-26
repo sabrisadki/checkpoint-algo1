@@ -1,0 +1,29 @@
+README file for the ALGORITHM Counter
+This program is designed to count the number of characters, words, and vowels in a sentence entered by the user.
+
+How to use
+When you run the program, you will be prompted to enter a sentence that ends with a period.
+Once you have entered your sentence, the program will count the number of characters, words, and vowels.
+The results will be displayed on the screen.
+Variables
+SENT: This variable stores the sentence entered by the user.
+COUNT1: This variable is used to count the number of characters in the sentence.
+COUNT2: This variable is used to count the number of words in the sentence.
+COUNT3: This variable is used to count the number of vowels in the sentence.
+Algorithm
+The program prompts the user to enter a sentence.
+The program reads the sentence and stores it in the SENT variable.
+The program uses a for loop to iterate through each character in the sentence.
+For each character, the program increments COUNT1 by 1.
+If the character is a space, the program increments COUNT2 by 1.
+If the character is a vowel (a, e, i, o, or u), the program increments COUNT3 by 1.
+Once the loop has finished iterating through all the characters in the sentence, the program displays the results.
+Output
+The program displays the following information about the input sentence:
+
+The length of the sentence (the number of characters).
+The number of words in the sentence.
+The number of vowels in the sentence.
+Note
+The program assumes that the user will enter a sentence that ends with a period.
+The program does not count punctuation marks as words.
