@@ -2,14 +2,14 @@ three_nb_add.algo
 ALGORITHM three_nb_add
 VAR
             num1, num2, num3 : INTEGER;
-            sum : INTEGER
+            sum : INTEGER;
 
 BEGIN
-            Read(num1)
-            Read(num2)
-            Read(num3)
+            Read(num1);
+            Read(num2);
+            Read(num3);
             sum := num1 + num2 + num3;
 10
-            Write(sum)
+            Write("the total of three number is :";sum);
 11
 END

@@ -1,0 +1,48 @@
+ALGORITHM TABLEAU
+VAR
+    tab : ARRAY_OF INTEGER[7];
+BEGIN
+    FOR i FROM 1 TO 7 DO
+        tab[i]=0;
+    END_FOR
+    
+END
+
+ALGORITHM tab
+VAR
+    Tab : ARRAY_OF INTEGER[9];
+BEGIN
+    FOR i FROM 1 TO 9 DO
+        write("please enter your data");
+        read(Tab[i]);
+    END_FOR
+END
+
+ALGORITHM TAB5
+VAR
+    i : INTEGER;
+    taB : ARRAY_OF INTEGER[5];
+    Nb : INTEGER;
+BEGIN
+    FOR i FROM 0 TO 5  DO
+        Nb = i*i;
+        write(Nb);
+        i=i+1;
+    END_FOR
+END
+
+ALGORITHM Occurance
+VAR
+    tab : ARRAY_OF INTEGER[length];
+    occ : INTEGER;
+    nb : INTEGER;
+BEGIN
+    write("please enter the number your search");
+    read(nb);
+    FOR i FROM 1 TO tab.length  DO
+        IF (tab[i]=nb) THEN
+            occ = occ+1;
+        END_IF
+    END_FOR
+    write("numbe of occurance equal";occ);
+END
